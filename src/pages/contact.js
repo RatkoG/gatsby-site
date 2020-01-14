@@ -1,7 +1,8 @@
 import React from "react"
+import Layout from "../components/layout"
 const ContactPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>Contact Me</h1>
       <p>Here is my info</p>
       <p>
@@ -10,7 +11,7 @@ const ContactPage = () => {
           Twitter
         </a>
       </p>
-    </div>
+    </Layout>
   )
 }
 export default ContactPage
