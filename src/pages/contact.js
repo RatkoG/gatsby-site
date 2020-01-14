@@ -1,10 +1,8 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 const ContactPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact Me</h1>
       <p>Here is my info</p>
       <p>
@@ -13,8 +11,7 @@ const ContactPage = () => {
           Twitter
         </a>
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 export default ContactPage
