@@ -1,6 +1,6 @@
 ---
 title: "React"
-data: "2020-01-01"
+date: "2020-01-01"
 ---
 
 What I learned from React
