@@ -19,7 +19,11 @@ const ContactPage = () => {
       <p>Here is my info</p>
       <p>
         You can use my{" "}
-        <a href={data.site.siteMetadata.social} target="_blank">
+        <a
+          href={data.site.siteMetadata.social}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Twitter
         </a>
       </p>
